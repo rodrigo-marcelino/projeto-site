@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
+    font-family: system-ui;
 }
 
 :root{
@@ -21,6 +21,7 @@ body{
     background-image: url(https://images.unsplash.com/photo-1443866451220-8377d57c426a?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-position: center center;
     background-size: cover;
+    font-weight: lighter;
 }
 
 li{
@@ -55,9 +56,9 @@ header{
     justify-content: space-between;
 }
 
-.navbar .logo a{
-    font-weight: bold;
-    font-size: 1.2rem;
+.navbar .logo img{
+    height: 60px;
+    width: 135px;
 }
 
 .navbar .links{
@@ -86,7 +87,7 @@ header{
 
 .action_btn:hover{
     scale: 1.05;
-    color: var(--cor3);
+    color: white;
 }
 
 .action_btn:active{
@@ -140,7 +141,7 @@ section#hero{
 
 #hero > h1{
     font-size: 3rem;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 /* RESPOSIVIDADE- Media queries
