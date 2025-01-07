@@ -96,7 +96,7 @@ header{
 
 /*DROPDOWN MENU*/
 
-.dropdown-menu{
+.dropdown_menu{
     display: none;
     position: absolute;
     height: 0px;
@@ -110,18 +110,19 @@ header{
     transition: height .2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-.dropdown-menu.open{
+.dropdown_menu.open{
+    display: block;
     height: 230px;
 }
 
-.dropdown-menu li{
+.dropdown_menu li{
     display: flex;
     padding: 0.7rem;
     align-items: center;
     justify-content: center;
 }
 
-.dropdown-menu .action_btn{
+.dropdown_menu .action_btn{
     width: 100%;
     display: flex;
     justify-content: center;
