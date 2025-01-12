@@ -122,6 +122,10 @@ header{
     justify-content: center;
 }
 
+.dropdown_menu li > a:hover{
+    color: var(--cor3);
+}
+
 .dropdown_menu .action_btn{
     width: 100%;
     display: flex;
